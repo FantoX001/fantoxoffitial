@@ -1,0 +1,612 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+
+}
+
+.logo{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.logo img{
+    width: 40%;
+    /*border: 2px solid black;
+    border-radius: 49%;*/
+}
+
+.navlist{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.18);
+
+}
+
+.navlist li{
+    list-style: none;
+    padding: 26px 40px;
+
+}
+
+.navlist li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+
+}
+
+.navlist li a:hover{
+    color: rgb(255, 0, 76);
+    
+
+}
+
+
+.background{
+    background: rgba(0, 0, 0, 0.75) url('main.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+}
+
+
+.box-main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 56%;
+    margin: auto;
+    padding-top: 117px;
+}
+.firstSection{
+    height: 900px;
+}
+
+
+
+.text-big{
+    font-size: 58px;
+    width: 110%;
+    color: rgb(255, 136, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text-small{
+    font-size: 18px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    line-height: 1.5;
+    padding-bottom: 20px;
+
+}
+.btn{
+    padding: 5px 25px;
+    margin: 7px 0;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    background: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.btn1{
+    padding: 5px 25px;
+    border: 2px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: auto;
+    
+}
+
+.btn1:hover{
+    color: rgb(255, 0, 55);
+    font-size: 14px;
+    transition-property: 0.2s;
+}
+.secRight{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact{
+    height: 10vh;
+    padding-top: 50px;
+    background: rgba(0, 0, 0, 0.75) url('main.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    
+}
+.text-center{
+    text-align: center;
+    padding: 30px;
+}
+
+.contact{
+    color: rgb(255, 136, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    height: 600px;
+}
+.contactmeform{
+    max-width: 420px;
+    margin: 25px auto;
+}
+.form-input{
+    width: 100%;
+    font-size: 14px;
+    border: 2px solid rgb(255, 254, 254);
+    border-radius: 12px;
+    padding: 6px;
+    margin: 15px 0;
+    
+}
+.darkbutton{
+    color: white;
+}
+
+.darkbutton:hover{
+    color: rgb(255, 0, 55);
+    font-size: 14px;
+    transition-property: 0.2s;
+}
+
+#usermessage{
+    width: 100%;
+    font-size: 18px;
+    border: 2px solid rgb(255, 254, 254);
+    border-radius: 20px;
+    padding: 6px;
+    margin: 15px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.copyrightdis{
+    
+    background: rgba(0, 0, 0, 0.82) url('main.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.burger{
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top:15px;
+    display: none;
+}
+.line{
+    width: 20px;
+    background-color: white;
+    height: 2px;
+    margin: 3px 3px;
+}
+
+.myprojects{
+    background: rgba(0, 0, 0, 0.75) url('main.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    
+    
+}
+.myprojheading{
+    background: rgba(0, 0, 0, 0.75) url('main.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    font-size: 40px;
+    color: rgb(255, 136, 0);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2.2%;
+}
+
+
+
+/*My projects*/
+.project1{
+    padding-left: 1.5%;
+}
+.heading1{
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 30px;
+    color: rgb(255, 0, 140);
+    margin-left: 4%;
+    padding-bottom: 10px;
+}
+.projectdetails1{
+    font-size: 18px;
+    margin-left: 5%;
+    padding-right: 10%;
+    color: white;
+    padding-bottom: 17px;
+}
+.projet1link{
+    padding-left: 5%;
+    padding: 5px 25px;
+    border: 2px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: auto;
+    margin-left: 5%;
+}
+
+
+.myprojects{
+    background: rgba(0, 0, 0, 0.75) url('main.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    
+    
+}
+.project2{
+    padding-left: 1.5%;
+    padding-top: 5%;
+}
+.heading2{
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 30px;
+    color: rgb(255, 0, 140);
+    margin-left: 4%;
+    padding-bottom: 10px;
+}
+.projectdetails2{
+    font-size: 18px;
+    margin-left: 5%;
+    padding-right: 10%;
+    color: white;
+    padding-bottom: 17px;
+}
+.projet2link{
+    padding-left: 5%;
+    padding: 5px 25px;
+    border: 2px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: auto;
+    margin-left: 5%;
+}
+
+.project3{
+    padding-left: 1.5%;
+    padding-top: 5%;
+}
+.heading3{
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 30px;
+    color: rgb(255, 0, 140);
+    margin-left: 4%;
+    padding-bottom: 10px;
+}
+.projectdetails3{
+    font-size: 18px;
+    margin-left: 5%;
+    padding-right: 10%;
+    color: white;
+    padding-bottom: 17px;
+}
+.projet3link{
+    padding-left: 5%;
+    padding: 5px 25px;
+    border: 2px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: auto;
+    margin-left: 5%;
+}
+
+
+.ghststext{
+    font-size: 38px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 8%;
+    color: rgb(255, 136, 0);
+    padding-left: 32px;
+}
+
+
+
+.mygithubstatusimg{
+    padding-top: 10px;
+    margin: auto;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
+.githubstats{
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1155px){
+
+    .ghinfo{
+        display: flex;
+        flex-direction: column;
+        background: fixed;
+        height: fit-content;
+    }
+    .navlist{
+        flex-direction: column;
+        flex-direction: column;
+        transition: all 0.5s ease-out;
+       
+        
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.5s ease-out;
+        height: 10%;
+        z-index: 2;
+    }
+    .contactmeform {
+        max-width: 220px;
+        margin: 10px auto;
+      }
+      .firstSection{
+        height: 800px;
+    }
+  .logo {
+  padding-top: 15px;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.burger{
+    display: block;
+}
+
+.h-nav-resp{
+    height: 72px;
+}
+.v-class-resp{
+    opacity: 0;
+}
+.specialbg{
+    background: rgba(0, 0, 0, 0.82) url('main.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+
+}
+.copyrightdis{
+    
+    background: rgba(0, 0, 0, 0.82) url('main.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    
+}
+.text-big{
+    font-size: 34px;
+    width: 110%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text-small{
+    font-size: 14px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin: auto;
+    line-height: 1.5;
+    padding-bottom: 20px;
+
+}
+.text-center{
+    text-align: center;
+    padding: 25px;
+    font-size: 25px;
+}
+
+.box-main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 70%;
+    margin: auto;
+
+}
+
+
+.mygitstatus{
+    
+padding-top: 15px;
+max-width: 100px;
+scale: 55%;
+height: 25px;
+display: flex;
+justify-content: center;
+margin: auto;
+}
+
+.githubstats{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.ghststext{
+    font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+padding-top: 72px;
+padding-left: 20px;
+display: flex;
+margin: auto;
+justify-content: center;
+}
+
+.myprojheading{
+    background: rgba(0, 0, 0, 0.75) url('main.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    height:50px;
+    mask-position: 0%;
+    font-size: 30px;
+    color: rgb(255, 136, 0);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2.2%;
+}
+
+
+
+/*Projects section*/
+.project1{
+    padding-left: 1.5%;
+}
+.heading1{
+    font-size: 22px;
+    padding-left: 2px;
+    padding-top: 25px;
+    padding-right: 30px;
+    color: rgb(255, 0, 140);
+    margin-left: 4%;
+    padding-bottom: 13px;
+}
+.projectdetails1{
+    font-size: 15px;
+    margin-left: 5%;
+    padding-right: 10px;
+    color: white;
+    padding-bottom: 18px;
+    
+}
+.projet1link{
+    padding-left: 5%;
+    padding: 5px 25px;
+    border: 2px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: auto;
+    margin-left: 5%;
+}
+
+
+.myprojects{
+    background: rgba(0, 0, 0, 0.75) url('main.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    
+    
+    
+}
+.project2{
+    padding-left: 1.5%;
+    padding-top: 5%;
+}
+.heading2{
+    font-size: 22px;
+    padding-left: 2px;
+    padding-top: 25px;
+    padding-right: 30px;
+    color: rgb(255, 0, 140);
+    margin-left: 4%;
+    padding-bottom: 13px;
+}
+.projectdetails2{
+    font-size: 15px;
+    margin-left: 5%;
+    padding-right: 10px;
+    color: white;
+    padding-bottom: 18px;
+}
+.projet2link{
+    padding-left: 5%;
+    padding: 5px 25px;
+    border: 2px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: auto;
+    margin-left: 5%;
+}
+
+.project3{
+    padding-left: 1.5%;
+    padding-top: 5%;
+}
+.heading3{
+    font-size: 22px;
+    padding-left: 2px;
+    padding-top: 25px;
+    padding-right: 30px;
+    color: rgb(255, 0, 140);
+    margin-left: 4%;
+    padding-bottom: 13px;
+}
+.projectdetails3{
+    font-size: 15px;
+    margin-left: 5%;
+    padding-right: 10px;
+    color: white;
+    padding-bottom: 18px;
+}
+.projet3link{
+    padding-left: 5%;
+    padding: 5px 25px;
+    border: 2px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: auto;
+    margin-left: 5%;
+}
+.myprojects{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    word-spacing: 0.1px;
+}
+
+}
+
